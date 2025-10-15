@@ -1,0 +1,17 @@
+@use "../utils/inex" as fwd;
+
+.badge {
+  @include fwd.badge-base();
+}
+
+.badge-completed {
+  background-color: fwd.$completed;
+}
+
+.badge-ended {
+  background-color: fwd.$ended;
+}
+
+.badge-active {
+  background-color: fwd.$active;
+}
